@@ -220,6 +220,10 @@ subdir- := idol347
 endif
 endif
 
+ifdef CONFIG_TCT_8X16_PIXI2_7_TMO
+subdir- := pixi2_7_tmo
+endif
+
 # *.dtb used to be generated in the directory above. Clean out the
 # old build results so people don't accidentally use them.
 dtbs: $(addprefix $(obj)/, $(DTB_LIST))

@@ -363,6 +363,12 @@ config TCT_8X16_IDOL347
 	help
 	  Support for the TCT IDOL347 device.
 
+config TCT_8X16_PIXI2_7_TMO
+	depends on ARCH_MSM8916
+	bool "MSM8916 PIXI2_7_TMO"
+	help
+	  Support for the TCT PIXI2_7_TMO device.
+
 config MSM_KRAIT_TBB_ABORT_HANDLER
 	bool "Krait TBB/TBH data abort handler"
 	depends on ARCH_MSM_KRAIT
