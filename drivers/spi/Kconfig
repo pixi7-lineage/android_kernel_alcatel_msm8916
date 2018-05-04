@@ -506,6 +506,14 @@ config SPI_QUP
 
 	  This driver can also be built as a module.  If so, the module
 	  will be called spi_qsd.
+
+config COM_INFRARED
+		tristate "com infrared"
+		help
+		  This supports user mode SPI protocol drivers for infrared.
+
+		  Note that this application programming interface is EXPERIMENTAL
+		  and hence SUBJECT TO CHANGE WITHOUT NOTICE while it stabilizes.
 #
 # Add new SPI master controllers in alphabetical order above this line
 #
